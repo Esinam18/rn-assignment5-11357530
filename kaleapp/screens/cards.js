@@ -1,7 +1,6 @@
 import React from "react";
 import {StyleSheet, Text, View,Image, SafeAreaView,ScrollView } from 'react-native';
 import { useTheme } from './theme'; 
-
 export default function Card() {
     const { isDarkMode } = useTheme(); 
     return(
